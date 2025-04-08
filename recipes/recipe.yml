@@ -6,8 +6,8 @@ name: Zeta-Reticuli
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 41 # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/bazzite-gnome
+image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -19,26 +19,109 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
     install:
-      - micro
-      - starship
-    remove:
-      # example: removing firefox (in favor of the flatpak)
-      # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
-      - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+      - gedit
+      - gparted
+      - libreoffice
+      - pluma
+      - samba
+      - samba-client
+      - simple-scan
+      - syncthing
+      - yt-dlp
+      - libvirt-daemon-config-network
+      - libvirt-daemon-kvm
+      - qemu-kvm
+      - virt-install
+      - virt-manager
+      - virt-viewer
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       # If no repo information is specified, Flathub will be used by default
       install:
-        - org.mozilla.firefox
-        - org.gnome.Loupe
-      remove:
-        - org.gnome.eog
+        # silverblue default apps
+        - org.gnome.Calculator # Calculator
+        - org.gnome.Calendar # Calendar
+        - org.gnome.Characters # Characters
+        - org.gnome.Connections # Connections
+        - org.gnome.Contacts # Contacts
+        - org.gnome.Evince # Document Viewer
+        # org.gnome.Extensions # Manage GNOME Extensions
+        # org.gnome.Logs # Logs
+        - org.gnome.Loupe # Image Viewer
+        - org.gnome.Maps # Maps
+        - org.gnome.NautilusPreviewer
+        - org.gnome.Snapshot # Camera
+        - org.gnome.TextEditor # Text Editor
+        - org.gnome.Weather
+        - org.gnome.baobab # Disk Usage Analyzer
+        - org.gnome.clocks
+        - org.gnome.font-viewer
+
+        # additional apps
+        - com.discordapp.Discord # Discord - Messaging, voice and video client
+        - com.mattjakeman.ExtensionManager # Extension Manager
+        - com.github.tchx84.Flatseal # Flatseal
+        - com.github.rafostar.Clapper # Clapper
+        - com.google.Chrome # Google CHrome
+        - com.mojang.Minecraft # Minecraft
+        - com.spotify.Client # Spotify Desktop
+        - com.surfshark.Surfshark # Connect to secure, private web!
+        - io.bassi.Amberol # Amberol Music Player
+        - it.mijorus.gearlever # Gear Lever Manage AppImages
+        - org.gimp.GIMP # GNU Image Create images and edit photographs
+        - org.freac.freac # fre:ac Audio converter and CD ripper
+        - org.kde.kdenlive # Video editor
+        - org.kde.kid3 # Edit audio file metadata
+        - org.keepassxc.KeePassXC # KeePassXC
+        - org.gnome.Evolution # Evolution
+        - org.gnome.gThumb # gThumb Image Viewer
+        - org.gnome.Rhythmbox3 # Rhythmbox
+        - org.signal.Signal # Signal Desktop
+        - org.telegram.desktop # Telegram Desktop
+        - org.videolan.VLC # VLC Player
+  
+  - type: systemd
+    system: 
+      enabled:
+        - libvirtd.service
+        - nfs-server.service
+        - rpcbind.service
+        - smb.service
+        - sshd.service
+        
     user: {} # Also add Flathub user repo, but no user packages
+  
+  - type: gnome-extensions
+    install:
+        - AppIndicator and KStatusNotifierItem Support # https://extensions.gnome.org/extension/615/appindicator-support/
+        - 3193 # Blur my Shell https://extensions.gnome.org/extension/3193/blur-my-shell/
+        - 307 # Dash-to-dock https://extensions.gnome.org/extension/307/dash-to-dock/
+        - 2 # Frippery Move Clock https://extensions.gnome.org/extension/2/move-clock/
+        - 1319 # GSConnect https://extensions.gnome.org/extension/1319/gsconnect/
+        # 798 # Hot Edges https://extensions.gnome.org/extension/798/overview-edge-gesture/
+        - 6655 # OpenWeather Refined https://extensions.gnome.org/extension/6655/openweather/
+        - 4 # Frippery Panel Favorites https://extensions.gnome.org/extension/4/panel-favorites/
+        # 6139 # Tailscale QS https://extensions.gnome.org/extension/6139/tailscale-qs/
+        - 1460 # Vitals https://extensions.gnome.org/extension/1460/vitals/
+        - 602 # Window List by fmuellner https://extensions.gnome.org/extension/602/window-list/
+
+  - type: fonts
+    fonts:
+      google-fonts:
+        - Lato
+        - Merriweather
+        - Montserrat
+        - Oswald
+        - Open Sans
+        - PT Sans
+        - Raleway
+        - Roboto
+        - Slabo
+        - Source Sans 3
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-
