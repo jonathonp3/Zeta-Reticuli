@@ -104,7 +104,7 @@ modules:
         - 2 # Frippery Move Clock https://extensions.gnome.org/extension/2/move-clock/
         - 1319 # GSConnect https://extensions.gnome.org/extension/1319/gsconnect/
         # 798 # Hot Edges https://extensions.gnome.org/extension/798/overview-edge-gesture/
-        - 6655 # OpenWeather Refined https://extensions.gnome.org/extension/6655/openweather/
+        # 6655 # OpenWeather Refined https://extensions.gnome.org/extension/6655/openweather/
         - 4 # Frippery Panel Favorites https://extensions.gnome.org/extension/4/panel-favorites/
         # 6139 # Tailscale QS https://extensions.gnome.org/extension/6139/tailscale-qs/
         - 1460 # Vitals https://extensions.gnome.org/extension/1460/vitals/
