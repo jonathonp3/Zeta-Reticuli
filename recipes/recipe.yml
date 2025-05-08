@@ -24,6 +24,7 @@ modules:
       - firefox
       - gedit
       - gparted
+      - kid3
       - libreoffice
       - pluma
       - samba
@@ -77,7 +78,7 @@ modules:
         - org.gimp.GIMP # GNU Image Create images and edit photographs
         - org.freac.freac # fre:ac Audio converter and CD ripper
         - org.kde.kdenlive # Video editor
-        - org.kde.kid3 # Edit audio file metadata
+        # org.kde.kid3 # Edit audio file metadata
         - org.keepassxc.KeePassXC # KeePassXC
         - org.gnome.Evolution # Evolution
         - org.gnome.gThumb # gThumb Image Viewer
