@@ -97,11 +97,6 @@ modules:
         - smb.service
         - snapd.service
         - sshd.service
-  
-  - type: script
-    snippets:
-        - "sudo ln -s /var/lib/snapd/snap /snap"
-        
         
     user: {} # Also add Flathub user repo, but no user packages
   
@@ -118,7 +113,12 @@ modules:
         # 6139 # Tailscale QS https://extensions.gnome.org/extension/6139/tailscale-qs/
         - 1460 # Vitals https://extensions.gnome.org/extension/1460/vitals/
         - 602 # Window List by fmuellner https://extensions.gnome.org/extension/602/window-list/
-
+  
+  - type: script
+    snippets:
+        - "sudo ln -s /var/lib/snapd/snap /snap"
+        
+                
   - type: fonts
     fonts:
       google-fonts:
