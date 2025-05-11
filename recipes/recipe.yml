@@ -117,6 +117,7 @@ modules:
   - type: script
     snippets:
         - "ln -s /var/lib/snapd/snap /snap"
+        - "snap install snap-store"
         
                 
   - type: fonts
