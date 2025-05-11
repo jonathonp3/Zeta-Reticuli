@@ -101,7 +101,7 @@ modules:
   - type: script
     snippets:
         - sudo ln -s /var/lib/snapd/snap /snap
-        - sudo snap install snap-store
+        
         
     user: {} # Also add Flathub user repo, but no user packages
   
