@@ -100,7 +100,7 @@ modules:
   
   - type: script
     snippets:
-        - sudo ln -s /var/lib/snapd/snap /snap
+        - "sudo ln -s /var/lib/snapd/snap /snap"
         
         
     user: {} # Also add Flathub user repo, but no user packages
