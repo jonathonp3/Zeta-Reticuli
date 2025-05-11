@@ -53,7 +53,7 @@ modules:
         - org.gnome.Contacts # Contacts
         - org.gnome.Evince # Document Viewer
         # org.gnome.Extensions # Manage GNOME Extensions
-        # org.gnome.Logs # Logs
+        - org.gnome.Logs # Logs
         - org.gnome.Loupe # Image Viewer
         - org.gnome.Maps # Maps
         - org.gnome.NautilusPreviewer
@@ -72,8 +72,8 @@ modules:
         - com.google.Chrome # Google CHrome
         - com.mojang.Minecraft # Minecraft
         - com.spotify.Client # Spotify Desktop
-        - com.surfshark.Surfshark # Connect to secure, private web!
-        - im.riot.Riot # Secure communications platform
+        # com.surfshark.Surfshark # Connect to secure, private web!
+        # im.riot.Riot # Element - Secure communications platform
         - io.bassi.Amberol # Amberol Music Player
         - it.mijorus.gearlever # Gear Lever Manage AppImages
         - org.gimp.GIMP # GNU Image Create images and edit photographs
@@ -95,6 +95,7 @@ modules:
         - nfs-server.service
         - rpcbind.service
         - smb.service
+        - snapd.service
         - sshd.service
         
     user: {} # Also add Flathub user repo, but no user packages
