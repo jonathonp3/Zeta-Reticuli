@@ -24,7 +24,7 @@ modules:
       - firefox
       - gedit
       - gparted
-      - kid3
+      # kid3
       - libreoffice
       - pluma
       - samba
@@ -114,9 +114,9 @@ modules:
         - 1460 # Vitals https://extensions.gnome.org/extension/1460/vitals/
         - 602 # Window List by fmuellner https://extensions.gnome.org/extension/602/window-list/
   
-  - type: script
-    snippets:
-        - "ln -s /var/lib/snapd/snap /snap"
+  # type: script
+    #snippets:
+        # "ln -s /var/lib/snapd/snap /snap"
         
                 
   - type: fonts
