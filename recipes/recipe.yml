@@ -23,7 +23,7 @@ modules:
       - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       
     install:
-      - brave-browser
+      # brave-browser
       - firefox
       - gedit
       - gparted
@@ -69,6 +69,7 @@ modules:
         - org.gnome.font-viewer
 
         # additional apps
+        - com.brave.Browser
         - com.discordapp.Discord # Discord - Messaging, voice and video client
         - com.mattjakeman.ExtensionManager # Extension Manager
         - com.github.tchx84.Flatseal # Flatseal
