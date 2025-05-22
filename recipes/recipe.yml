@@ -82,6 +82,7 @@ modules:
         - io.bassi.Amberol # Amberol Music Player
         - it.mijorus.gearlever # Gear Lever Manage AppImages
         - org.gimp.GIMP # GNU Image Create images and edit photographs
+        - org.gnome.Fractal # Chat on Matrix 
         - org.freac.freac # fre:ac Audio converter and CD ripper
         - org.kde.kdenlive # Video editor
         # org.kde.kid3 # Edit audio file metadata
