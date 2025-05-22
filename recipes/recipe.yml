@@ -20,7 +20,10 @@ modules:
   - type: rpm-ostree
     repos:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+      
     install:
+      - brave-browser
       - firefox
       - gedit
       - gparted
