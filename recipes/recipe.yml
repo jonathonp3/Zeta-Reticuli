@@ -34,7 +34,7 @@ modules:
       - samba
       - samba-client
       - simple-scan
-      - snapd
+      # snapd
       - syncthing
       - yt-dlp
       - libvirt-daemon-config-network
@@ -78,7 +78,7 @@ modules:
         - com.google.Chrome # Google CHrome
         - com.mojang.Minecraft # Minecraft
         - com.spotify.Client # Spotify Desktop
-        # com.surfshark.Surfshark # Connect to secure, private web!
+        - com.surfshark.Surfshark # Connect to secure, private web!
         # im.riot.Riot # Element - Secure communications platform
         - io.bassi.Amberol # Amberol Music Player
         - it.mijorus.gearlever # Gear Lever Manage AppImages
@@ -86,7 +86,7 @@ modules:
         - org.gnome.Fractal # Chat on Matrix 
         - org.freac.freac # fre:ac Audio converter and CD ripper
         - org.kde.kdenlive # Video editor
-        # org.kde.kid3 # Edit audio file metadata
+        - org.kde.kid3 # Edit audio file metadata
         - org.keepassxc.KeePassXC # KeePassXC
         - org.gnome.Evolution # Evolution
         - org.gnome.gThumb # gThumb Image Viewer
