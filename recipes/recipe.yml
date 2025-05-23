@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: Zeta-Reticuli
+name: zeta-reticuli
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
@@ -23,13 +23,12 @@ modules:
       - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       
     install:
-      # brave-browser
+      - brave-browser
       - firefox
       - gedit
       - gparted
       # kid3
       - libreoffice
-      - pidgin-matrix
       - pluma
       - rhythmbox
       - samba
