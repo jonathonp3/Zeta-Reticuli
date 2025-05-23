@@ -20,14 +20,13 @@ modules:
   - type: rpm-ostree
     repos:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
-      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       
     install:
-      - brave-browser
+      # brave-browser
       - firefox
       - gedit
       - gparted
-      # kid3
+      - kid3
       - libreoffice
       - pluma
       - rhythmbox
@@ -86,7 +85,7 @@ modules:
         - org.gnome.Fractal # Chat on Matrix 
         - org.freac.freac # fre:ac Audio converter and CD ripper
         - org.kde.kdenlive # Video editor
-        - org.kde.kid3 # Edit audio file metadata
+        # org.kde.kid3 # Edit audio file metadata
         - org.keepassxc.KeePassXC # KeePassXC
         - org.gnome.Evolution # Evolution
         - org.gnome.gThumb # gThumb Image Viewer
