@@ -33,7 +33,7 @@ modules:
       - samba
       - samba-client
       - simple-scan
-      # snapd
+      - snapd
       - syncthing
       - yt-dlp
       - libvirt-daemon-config-network
