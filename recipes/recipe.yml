@@ -125,6 +125,7 @@ modules:
     #snippets:
         # "ln -s /var/lib/snapd/snap /snap"
         - mkdir /var/lib/snapd/void
+        - snap install snap-store
         
                 
   - type: fonts
