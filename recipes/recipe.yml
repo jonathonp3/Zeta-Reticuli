@@ -124,7 +124,7 @@ modules:
   # type: script
     #snippets:
         # "ln -s /var/lib/snapd/snap /snap"
-        - mkdir /var/lib/snapd/void
+        - mkdir -p /var/lib/snapd/void
         - snap install snap-store
         
                 
