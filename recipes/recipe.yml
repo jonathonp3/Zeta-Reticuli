@@ -33,7 +33,7 @@ modules:
       - samba
       - samba-client
       - simple-scan
-      - snapd
+      # snapd # run sudo mkdir /var/lib/snapd/void after installing snaps
       - syncthing
       - yt-dlp
       - libvirt-daemon-config-network
@@ -124,7 +124,6 @@ modules:
   # type: script
     #snippets:
         # "ln -s /var/lib/snapd/snap /snap"
-        - mkdir -p /var/lib/snapd/void
         
                 
   - type: fonts
