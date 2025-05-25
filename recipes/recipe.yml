@@ -23,6 +23,7 @@ modules:
       
     install:
       # brave-browser
+      - ffmpegthumbnailer
       - firefox
       - gedit
       - gparted
