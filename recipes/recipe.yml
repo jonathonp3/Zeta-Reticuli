@@ -122,7 +122,7 @@ modules:
         - 602 # Window List by fmuellner https://extensions.gnome.org/extension/602/window-list/
   
   # type: script
-    #snippets:
+  # snippets:
         # "ln -s /var/lib/snapd/snap /snap"
         
                 
