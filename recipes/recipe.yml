@@ -127,9 +127,7 @@ modules:
     snippets:
         # "ln -s /var/lib/snapd/snap /snap"
         - setsebool -P samba_enable_home_dirs on
-        - firewall-cmd --add-service=samba --permanent
         - setsebool -P use_nfs_home_dirs 1
-        - firewall-cmd --add-service=nfs --permanent
                 
   - type: fonts
     fonts:
