@@ -34,9 +34,9 @@ modules:
       - samba
       - samba-client
       - simple-scan
-      # snapd # run sudo snap install snap-store && sudo mkdir /var/lib/snapd/void after installing snaps
+      # snapd # run sudo snap install snap-store && sudo mkdir /var/lib/snapd/void before installing snaps
       - syncthing
-      - vlc
+      # vlc
       - yt-dlp
       - libvirt-daemon-config-network
       - libvirt-daemon-kvm
@@ -94,7 +94,7 @@ modules:
         # org.gnome.Rhythmbox3 # Rhythmbox
         - org.signal.Signal # Signal Desktop
         - org.telegram.desktop # Telegram Desktop
-        # org.videolan.VLC # VLC Player
+        - org.videolan.VLC # VLC Player
         - org.vinegarhq.Sober # Roblox in linux
   
   - type: systemd
