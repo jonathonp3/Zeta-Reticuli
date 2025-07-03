@@ -36,7 +36,6 @@ modules:
       - simple-scan
       # snapd # run sudo snap install snap-store && sudo mkdir /var/lib/snapd/void before installing snaps
       - syncthing
-      # vlc
       - yt-dlp
       - libvirt-daemon-config-network
       - libvirt-daemon-kvm
