@@ -22,8 +22,6 @@ modules:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       
     install:
-      # brave-browser
-      - ffmpegthumbnailer
       - firefox
       - gedit
       - gparted
@@ -38,12 +36,14 @@ modules:
       - syncthing
       - vlc
       - yt-dlp
-      - libvirt-daemon-config-network
-      - libvirt-daemon-kvm
-      - qemu-kvm
-      - virt-install
-      - virt-manager
-      - virt-viewer
+      
+      ## Virt-Manger
+      # libvirt-daemon-config-network
+      # libvirt-daemon-kvm
+      # qemu-kvm
+      # virt-install
+      # virt-manager
+      # virt-viewer
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -100,7 +100,7 @@ modules:
   - type: systemd
     system: 
       enabled:
-        - libvirtd.service
+        # libvirtd.service
         - nfs-server.service
         - rpcbind.service
         - smb.service
