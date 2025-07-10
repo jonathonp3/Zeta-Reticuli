@@ -58,7 +58,6 @@ modules:
         - org.gnome.Contacts # Contacts
         - org.gnome.Evince # Document Viewer
         # org.gnome.Extensions # Manage GNOME Extensions
-        # org.gnome.Fractal # Chat on Matrix
         - org.gnome.Logs # Logs
         - org.gnome.Loupe # Image Viewer
         - org.gnome.Maps # Maps
@@ -85,7 +84,7 @@ modules:
         - io.bassi.Amberol # Amberol Music Player
         - it.mijorus.gearlever # Gear Lever Manage AppImages
         - org.gimp.GIMP # GNU Image Create images and edit photographs
-        - org.gnome.Fractal # Chat on Matrix 
+        # org.gnome.Fractal # Chat on Matrix 
         - org.freac.freac # fre:ac Audio converter and CD ripper
         - org.kde.kdenlive # Video editor
         # org.kde.kid3 # Edit audio file metadata
@@ -93,7 +92,7 @@ modules:
         - org.gnome.Evolution # Evolution
         - org.gnome.gThumb # gThumb Image Viewer
         # org.gnome.Rhythmbox3 # Rhythmbox
-        - org.signal.Signal # Signal Desktop
+        # org.signal.Signal # Signal Desktop
         - org.telegram.desktop # Telegram Desktop
         # org.videolan.VLC # VLC Player
         - org.vinegarhq.Sober # Roblox in linux
