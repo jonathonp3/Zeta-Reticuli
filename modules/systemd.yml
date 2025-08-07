@@ -1,0 +1,9 @@
+- type: systemd
+  system: 
+    enabled:
+      # libvirtd.service
+      - nfs-server.service
+      - rpcbind.service
+      - smb.service
+      # snapd.service
+      - sshd.service
