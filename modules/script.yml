@@ -1,6 +1,4 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
-highlights:
----
 - type: script
   snippets:
     - setsebool -P samba_enable_home_dirs on
