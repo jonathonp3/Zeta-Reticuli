@@ -62,7 +62,7 @@ modules:
   
   - from-file: modules/gnome-extenions.yml
   
-  - from-file: modules/gnome-extenions.yml
+  - from-file: modules/script.yml
   
   - from-file: modules/default-flatpaks.yml              
 
