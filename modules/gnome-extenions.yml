@@ -1,3 +1,6 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+highlights:
+---
 - type: gnome-extensions
   install:
     # AppIndicator and KStatusNotifierItem Support # https://extensions.gnome.org/extension/615/appindicator-support/
