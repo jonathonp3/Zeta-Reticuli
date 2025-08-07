@@ -1,0 +1,5 @@
+- type: script
+  snippets:
+      # "ln -s /var/lib/snapd/snap /snap"
+      - setsebool -P samba_enable_home_dirs on
+      - setsebool -P use_nfs_home_dirs 1
