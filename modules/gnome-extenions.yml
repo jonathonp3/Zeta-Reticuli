@@ -1,7 +1,5 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
-highlights:
----
-- type: gnome-extensions
+type: gnome-extensions
   install:
     # AppIndicator and KStatusNotifierItem Support # https://extensions.gnome.org/extension/615/appindicator-support/
     - 3193 # Blur my Shell https://extensions.gnome.org/extension/3193/blur-my-shell/
