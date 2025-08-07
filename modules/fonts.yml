@@ -1,0 +1,13 @@
+- type: fonts
+  fonts:
+    google-fonts:
+      - Lato
+      - Merriweather
+      - Montserrat
+      - Oswald
+      - Open Sans
+      - PT Sans
+      - Raleway
+      - Roboto
+      - Slabo
+      - Source Sans 3
