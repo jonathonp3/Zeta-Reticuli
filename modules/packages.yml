@@ -1,0 +1,24 @@
+## Packages
+install:
+  - firefox
+  - gedit
+  - gparted
+  - kid3
+  - libreoffice
+  - pluma
+  - rhythmbox
+  - samba
+  - samba-client
+  - simple-scan
+  # snapd # run sudo snap install snap-store && sudo mkdir /var/lib/snapd/void before installing snaps
+  - syncthing
+  - vlc
+  - yt-dlp
+      
+  ## Virt-Manger
+  # libvirt-daemon-config-network
+  # libvirt-daemon-kvm
+  # qemu-kvm
+  # virt-install
+  # virt-manager
+  # virt-viewer
