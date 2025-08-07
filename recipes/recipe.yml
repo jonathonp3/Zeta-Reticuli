@@ -26,10 +26,6 @@ modules:
   - from-file: modules/default-flatpaks.yml
 
   - from-file: modules/systemd.yml
-
-
-        
-    user: {} # Also add Flathub user repo, but no user packages
   
   - from-file: modules/gnome-extenions.yml
   
