@@ -19,11 +19,11 @@ install:
   - vlc
   - yt-dlp
       
-# Uncomment and edit below for virtualization tools if needed:
-# virt:
-#   - libvirt-daemon-config-network
-#   - libvirt-daemon-kvm
-#   - qemu-kvm
-#   - virt-install
-#   - virt-manager
-#   - virt-viewer
+  # Uncomment and edit below for virtualization tools if needed:
+  # virt:
+  # libvirt-daemon-config-network
+  # libvirt-daemon-kvm
+  # qemu-kvm
+  # virt-install
+  # virt-manager
+  # virt-viewer
