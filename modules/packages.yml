@@ -1,26 +1,4 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
-type: rpm-ostree-latest
+type: rpm-ostree
 install:
   - firefox
-  - gedit
-  - gparted
-  - kid3
-  - libreoffice
-  - pluma
-  - rhythmbox
-  - samba
-  - samba-client
-  - simple-scan
-  # snapd # run sudo snap install snap-store && sudo mkdir /var/lib/snapd/void before installing snaps
-  - syncthing
-  - vlc
-  - yt-dlp
-      
-  # Uncomment and edit below for virtualization tools if needed:
-  # virt:
-  # libvirt-daemon-config-network
-  # libvirt-daemon-kvm
-  # qemu-kvm
-  # virt-install
-  # virt-manager
-  # virt-viewer
