@@ -1,4 +1,6 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+highlights:
+---
 type: application
 name: media-and-tools
 install:
