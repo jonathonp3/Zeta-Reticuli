@@ -1,4 +1,6 @@
-# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+type: application
+name: media-and-tools
 install:
   - firefox
   - gedit
@@ -15,10 +17,11 @@ install:
   - vlc
   - yt-dlp
       
-  ## Virt-Manger
-  # libvirt-daemon-config-network
-  # libvirt-daemon-kvm
-  # qemu-kvm
-  # virt-install
-  # virt-manager
-  # virt-viewer
+# Uncomment and edit below for virtualization tools if needed:
+# virt:
+#   - libvirt-daemon-config-network
+#   - libvirt-daemon-kvm
+#   - qemu-kvm
+#   - virt-install
+#   - virt-manager
+#   - virt-viewer
