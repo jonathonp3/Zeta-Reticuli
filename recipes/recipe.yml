@@ -21,7 +21,7 @@ modules:
     repos:
       - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       
-  # from-file: ../modules/packages.yml
+  - from-file: ../modules/packages.yml
 
   - from-file: ../modules/default-flatpaks.yml
 
