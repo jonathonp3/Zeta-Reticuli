@@ -21,11 +21,13 @@ modules:
 
   - from-file: ../modules/default-flatpaks.yml
 
-  # from-file: ../modules/systemd.yml
+  - from-file: ../modules/systemd.yml
   
-  # from-file: ../modules/gnome-extenions.yml
+  - from-file: ../modules/gnome-extenions.yml
   
-  - from-file: ../modules/script.yml          
+  - from-file: ../modules/script.yml
+
+  - from-file: ../modules/fonts.yml 
 
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
