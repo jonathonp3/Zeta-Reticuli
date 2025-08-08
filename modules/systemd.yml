@@ -1,12 +1,11 @@
-# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
 type: systemd
-  system: 
-    enabled:
-      # libvirtd.service
-      - nfs-server.service
-      - rpcbind.service
-      - smb.service
-      # snapd.service
-      - sshd.service
-  
-  user: {} # Also add Flathub user repo, but no user packages
+system:
+  enabled:
+    # libvirtd.service
+    - nfs-server.service
+    - rpcbind.service
+    - smb.service
+    # snapd.service
+    - sshd.service
+  user: {}  # Also add Flathub user repo, but no user packages
