@@ -2,7 +2,7 @@
 type: systemd
 system:
   enabled:
-    # libvirtd.service
+    - libvirtd.service
     - nfs-server.service
     - rpcbind.service
     - smb.service
