@@ -35,8 +35,8 @@ configurations:
       - com.mojang.Minecraft # Minecraft
       - com.spotify.Client # Spotify Desktop
       - com.surfshark.Surfshark # Connect to secure, private web!
-      - chat.schildi.desktop # A feature-rich messenger for Matrix based on Element with some extras and tweaks
-      # im.riot.Riot # Element - Messenger for Matrix
+      # chat.schildi.desktop # A feature-rich messenger for Matrix based on Element with some extras and tweaks
+      - im.riot.Riot # Element - Messenger for Matrix
       - io.bassi.Amberol # Amberol Music Player
       - it.mijorus.gearlever # Gear Lever Manage AppImages
       - org.gimp.GIMP # GNU Image Create images and edit photographs
