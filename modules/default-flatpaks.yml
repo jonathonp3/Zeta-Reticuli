@@ -13,7 +13,7 @@ configurations:
       - org.gnome.Contacts # Contacts
       - org.gnome.Evince # Document Viewer
       # org.gnome.Extensions # Manage GNOME Extensions
-      - org.virt_manager.virt-manager # Virtual Machine Manager
+      # org.virt_manager.virt-manager # Virtual Machine Manager
       - org.gnome.Logs # Logs
       - org.gnome.Loupe # Image Viewer
       - org.gnome.Maps # Maps
