@@ -19,8 +19,8 @@ install:
   # snapd 
   
   ## Virt-Manager
-  # libvirt-daemon-kvm
+  - libvirt-daemon-kvm
   - qemu-kvm
-  # virt-install
-  # virt-manager
-  # virt-viewer
+  - virt-install
+  - virt-manager
+  - virt-viewer
