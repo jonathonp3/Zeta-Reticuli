@@ -51,4 +51,4 @@ configurations:
       # org.signal.Signal # Signal Desktop
       - org.telegram.desktop # Telegram Desktop
       # org.videolan.VLC # VLC Player
-      - org.vinegarhq.Sober # Roblox in linux
+      # org.vinegarhq.Sober # Roblox in linux
