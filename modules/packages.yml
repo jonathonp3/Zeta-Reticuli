@@ -2,12 +2,12 @@
 type: rpm-ostree
 install:
   - firefox
-  - gedit
-  - gparted
+  # gedit
+  # gparted
   - kid3
   - libreoffice
   - pluma
-  - rhythmbox
+  # rhythmbox
   - samba
   - samba-client
   - simple-scan
