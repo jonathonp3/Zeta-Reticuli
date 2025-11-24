@@ -25,7 +25,7 @@ modules:
 
   - from-file: ../modules/systemd.yml
   
-  - from-file: ../modules/gnome-extenions.yml
+  - from-file: ../modules/gnome-extensions.yml
   
   - from-file: ../modules/script.yml
 
