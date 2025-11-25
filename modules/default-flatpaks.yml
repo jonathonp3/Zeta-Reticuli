@@ -16,6 +16,7 @@ configurations:
       # org.virt_manager.virt-manager # Virtual Machine Manager
       - org.gnome.Logs # Logs
       - org.gnome.Loupe # Image Viewer
+      - org.mozilla.firefox # Web Browser
       - org.gnome.Maps # Maps
       - org.gnome.NautilusPreviewer
       - org.gnome.Snapshot # Camera
