@@ -49,7 +49,7 @@ configurations:
       - org.keepassxc.KeePassXC # KeePassXC
       - org.gnome.Evolution # Evolution
       - org.gnome.gThumb # gThumb Image Viewer
-      # org.gnome.Rhythmbox3 # Rhythmbox
+      - org.gnome.Rhythmbox3 # Rhythmbox
       # org.signal.Signal # Signal Desktop
       - org.telegram.desktop # Telegram Desktop
       - org.videolan.VLC # VLC Player
