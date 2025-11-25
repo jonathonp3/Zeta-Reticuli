@@ -18,6 +18,7 @@ configurations:
       - org.gnome.Loupe # Image Viewer
       - org.mozilla.firefox # Web Browser
       - org.gnome.Maps # Maps
+      - org.libreoffice.LibreOffice # The LibreOffice productivity suite
       - org.gnome.NautilusPreviewer
       - org.gnome.Snapshot # Camera
       - org.gnome.TextEditor # Text Editor
