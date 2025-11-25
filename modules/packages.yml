@@ -1,12 +1,11 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
 type: rpm-ostree
 install:
-  - firefox
   # gedit
-  # gparted
+  - gparted
   # kid3
   # libreoffice
-  # pluma
+  - pluma
   # rhythmbox
   - samba
   - samba-client
