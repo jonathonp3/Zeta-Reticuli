@@ -4,16 +4,16 @@ install:
   - firefox
   # gedit
   # gparted
-  - kid3
-  - libreoffice
-  - pluma
+  # kid3
+  # libreoffice
+  # pluma
   # rhythmbox
   - samba
   - samba-client
-  - simple-scan
+  # simple-scan
   - syncthing
-  - vlc
-  - yt-dlp
+  # vlc
+  # yt-dlp
   
   ## Snaps run sudo snap install snap-store and sudo mkdir /var/lib/snapd/void before installing snaps to avoid error after os installation
   # snapd 
