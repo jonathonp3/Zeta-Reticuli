@@ -8,4 +8,5 @@ system:
     - smb.service
     # snapd.service
     - sshd.service
+    - docker.service
   user: {}  # Also add Flathub user repo, but no user packages
