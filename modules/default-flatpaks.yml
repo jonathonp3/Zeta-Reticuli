@@ -30,10 +30,11 @@ configurations:
       # additional apps
       - com.brave.Browser
       - com.discordapp.Discord # Discord - Messaging, voice and video client
-      - com.mattjakeman.ExtensionManager # Extension Manager
+      - com.freerdp.FreeRDP # FreeRDP is a free implementation of the Remote Desktop Protocol RDP
       - com.github.tchx84.Flatseal # Flatseal
       - com.github.rafostar.Clapper # Clapper
       - com.google.Chrome # Google CHrome
+      - com.mattjakeman.ExtensionManager # Extension Manager
       - com.mojang.Minecraft # Minecraft
       - com.spotify.Client # Spotify Desktop
       - com.surfshark.Surfshark # Connect to secure, private web!
