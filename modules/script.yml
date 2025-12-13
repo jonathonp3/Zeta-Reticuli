@@ -3,5 +3,3 @@ type: script
 snippets:
   - setsebool -P samba_enable_home_dirs on
   - setsebool -P use_nfs_home_dirs 1
-  - groupadd docker
-  - usermod -aG docker $USER
