@@ -29,7 +29,7 @@ configurations:
 
       # additional apps
       - com.brave.Browser
-      - com.discordapp.Discord # Discord - Messaging, voice and video client
+      # com.discordapp.Discord # Discord - Messaging, voice and video client
       - com.freerdp.FreeRDP # FreeRDP is a free implementation of the Remote Desktop Protocol RDP
       - com.github.tchx84.Flatseal # Flatseal
       - com.github.rafostar.Clapper # Clapper
