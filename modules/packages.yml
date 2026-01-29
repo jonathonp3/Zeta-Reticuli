@@ -10,7 +10,7 @@ install:
   - samba
   - samba-client
   # simple-scan
-  - syncthing
+  # syncthing
   # vlc
   # yt-dlp
   
