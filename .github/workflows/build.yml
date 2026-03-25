@@ -1,9 +1,9 @@
 name: bluebuild
 on:
   schedule:
-    - cron:
-        "00 06 * * *" # build at 06:00 UTC every day
-        # (20 minutes after last ublue images start building)
+     - cron: "00 06 * * *"   # build at 06:00 UTC every day
+     - cron: '0 0 * * 0'  # weekly noop keep-alive (Sunday UTC)
+
   push:
     paths-ignore: # don't rebuild if only documentation has changed
       - "**.md"
@@ -29,6 +29,9 @@ jobs:
           # !! Add your recipes here
           - recipe.yml
     steps:
+      - name: No-op keep-alive
+        run: exit 0
+        
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
         uses: blue-build/github-action@v1.8
